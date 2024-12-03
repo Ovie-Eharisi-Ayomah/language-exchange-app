@@ -1,0 +1,95 @@
+
+/* Member Card CSS */
+.member-card {
+    background-color: white;
+    border: 2px solid teal;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    margin: 16px auto; /* Center card and add spacing */
+    box-sizing: border-box; /* Include padding and border in the width */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    /* Responsive Width */
+    width: 100%; /* Default for small screens */
+    max-width: 300px; /* Prevent it from getting too large on big screens */
+    }
+/* Member Card hover state */
+.member-card:hover {
+    border-color: #1bb28d; /* Highlight with a brighter teal */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Slight glow */
+}
+
+    
+@media (max-width: 480px) {
+.member-card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto; /* Center card and add spacing */
+}
+}
+
+/* Photo-languages div CSS */
+.card-photo-lang {
+    display: flex; /* Enable Flexbox for horizontal alignment */
+    align-items: center; /* Vertically align items */
+    gap: 16px; /* Space between the photo and languages section */
+}
+
+/* Card Profile Photo CSS */
+.card-photo {
+    width: 80px; /* Default size */
+    height: 80px;
+    border-radius: 50%; /* Circular */
+    border: 2px solid teal;
+    object-fit: cover; /* Ensure the image doesn’t stretch */
+    margin-bottom: 12px; /* Space below the image */
+}
+    /* Responsive Adjustments */
+@media (min-width: 768px) {
+    .card-photo{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Card Languages CSS */
+.card-languages {
+    display: flex; /* Default inline layout */
+    flex-direction: column; /* Stack vertically */
+    gap: 4px; /* Space between items */
+    text-align: center;
+    margin-top: 12px;
+}
+    
+/* Inline Layout for Larger Screens */
+@media (min-width: 768px) {
+    .card-languages {
+        flex-direction: column; /* Horizontal alignment */
+        justify-content: space-around;
+    }
+}
+
+    
+.card-languages .native, .card-languages .learning {
+    font-size: 0.9rem; /* Smaller font size */
+    color: #555; /* Subtle color for secondary text */
+    }
+
+/* Card Name CSS */
+.card-name {
+    font-size: 1.2rem; /* Base font size */
+    font-weight: bold;
+    color: teal;
+    margin-bottom: 8px;
+}
+/* Larger Font for Bigger Screens */
+@media (min-width: 768px) {
+    .card-name {
+        font-size: 1.5rem;
+    }
+}
+
+
+

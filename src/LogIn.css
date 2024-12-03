@@ -1,0 +1,130 @@
+.navbar {
+    width: 100%;
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Center horizontally within its container */
+    gap: 8px; /* Space between input and button */
+    margin: 16px 0; /* Add vertical spacing */
+    border: 2px solid teal;
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: teal;
+}
+
+.signup-link {
+    background-color: #f9f9f9; /* Soft light gray background */
+    color: #333; /* Darker text for readability */
+    padding: 10px 20px; /* Space inside the button */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 25px; /* Match the input field's rounded edges */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.signup-link:hover {
+    background-color: teal; /* Darken teal slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow */
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+
+.login-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Space between form elements */
+    }
+
+.login-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: teal;
+    margin-bottom: 20px;
+    }
+
+
+/* Input Fields */
+.form-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* Light gray background */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Inner shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight with brighter teal */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Outer glow */
+    }
+
+.auth-buttons {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    justify-content: center;
+}
+
+.third-party-button {
+    flex: 1; /* Make buttons equal width */
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    }
+
+.google {
+    background-color: #4285f4; /* Google blue */
+    }
+    
+.apple {
+background-color: #333; /* Apple black */
+}
+
+.facebook {
+background-color: #3b5998; /* Facebook blue */
+}
+
+.third-party-button:hover {
+opacity: 0.8; /* Subtle hover effect */
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-button:hover {
+background-color: #005f5f; /* Darker teal on hover */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}

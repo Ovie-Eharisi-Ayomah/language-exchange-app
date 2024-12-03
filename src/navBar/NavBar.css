@@ -1,0 +1,41 @@
+/* Container for the Navigation Bar */
+.nav-bar {
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Center horizontally within its container */
+    gap: 8px; /* Space between input and button */
+    margin: 16px 0; /* Add vertical spacing */
+}
+
+/* Nav buttons */
+button {
+    background-color: #f9f9f9; /* Soft light gray background */
+    color: #333; /* Darker text for readability */
+    padding: 10px 20px; /* Space inside the button */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 25px; /* Match the input field's rounded edges */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+@media (max-width: 480px) {
+    button {
+        border: 2px solid teal; /* Teal border */
+        border-radius: 25px; /* Match the input field's rounded edges */
+        font-size: 0.5rem; /* Button text size */
+    }
+}
+/* Nav button hover state */
+button:hover {
+    background-color: teal; /* Darken teal slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow */
+}
+
+.nav-bar-main {
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally within its container */
+    gap: 8px; /* Space between input and button */
+    margin: 16px 0; /* Add vertical spacing */
+}

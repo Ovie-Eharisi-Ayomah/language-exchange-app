@@ -1,0 +1,44 @@
+/* Container for the Search Bar */
+.search-bar {
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally within its container */
+    gap: 8px; /* Space between input and button */
+    margin: 16px 0; /* Add vertical spacing */
+}
+/* Input Field */
+.search-input {
+    width: 100%; /* Take up all available space */
+    max-width: 400px; /* Limit the width for larger screens */
+    padding: 10px 16px; /* Add comfortable padding inside the field */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 25px; /* Rounded edges */
+    background-color: #f9f9f9; /* Soft light gray background */
+    font-size: 1rem; /* Slightly larger text */
+    color: #333; /* Darker text for readability */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus effect */
+}
+/* Focus State for Input */
+.search-input:focus {
+    border-color: #1bb28d; /* Highlight with a brighter teal */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Slight glow */
+}
+/* Search Button */
+.search-button {
+    background-color: teal; /* Teal background to match the theme */
+    color: white; /* White text */
+    padding: 10px 20px; /* Space inside the button */
+    border: none; /* Remove the border */
+    border-radius: 25px; /* Match the input field's rounded edges */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+/* Hover Effect for Button */
+.search-button:hover {
+    background-color: #005f5f; /* Darken teal slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow */
+}
