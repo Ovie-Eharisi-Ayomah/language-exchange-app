@@ -1,0 +1,63 @@
+/* Container for the settings Bar */
+.settings-bar {
+    display: flex; 
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally within its container */
+    margin: 16px 0 25px 0; /* Add vertical spacing */
+}
+/* Settings */
+.settings {
+    width: 100%; /* Take up all available space */
+    max-width: 400px; /* Limit the width for larger screens */
+    padding: 5px 5px; /* Add comfortable padding inside the field */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 10px; /* Rounded edges */
+    background-color: #f9f9f9; /* Soft light gray background */
+    font-size: 1.5rem; /* Slightly larger text */
+    color: teal; /* White text */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus effect */
+}
+/* Container for settings */
+.settings-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 50px; /* Add vertical spacing */
+}
+/* labels */
+.settings-page-label {
+    width: 100%; /* Take up all available space */
+    max-width: 400px; /* Limit the width for larger screens */
+    padding: 5px 5px; /* Add comfortable padding inside the field */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 10px; /* Rounded edges */
+    background-color: #f9f9f9; /* Soft light gray background */
+    font-size: 1rem; /* Slightly larger text */
+    color: teal; /* White text */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus effect */
+}
+/* buttons */
+.settings-button {
+    width: 100%; /* Take up all available space */
+    max-width: 300px; /* Limit the width for larger screens */
+    padding: 5px 5px; /* Add comfortable padding inside the field */
+    border: 2px solid teal; /* Teal border */
+    border-radius: 10px; /* Rounded edges */
+    background-color: #f9f9f9; /* Soft light gray background */
+    font-size: 1rem; /* Slightly larger text */
+    color: teal; /* White text */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus effect */
+}
+/* Message button hover state */
+.settings-button:hover {
+    color: #f9f9f9;
+    background-color: teal; /* Darken teal slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow */
+}

@@ -10,7 +10,7 @@
 /* Nav buttons */
 button {
     background-color: #f9f9f9; /* Soft light gray background */
-    color: #333; /* Darker text for readability */
+    color: teal; /* Darker text for readability */
     padding: 10px 20px; /* Space inside the button */
     border: 2px solid teal; /* Teal border */
     border-radius: 25px; /* Match the input field's rounded edges */
@@ -28,6 +28,7 @@ button {
 }
 /* Nav button hover state */
 button:hover {
+    color: #f9f9f9;
     background-color: teal; /* Darken teal slightly */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow */
 }

@@ -1,15 +1,19 @@
 import './App.css';
-import LogIn from './LogIn';
-// import MembersPage from './MembersPage';
-// import SignUp from './signUp/SignUp';
+// import LogIn from './logIn/LogIn';
+// import ProfilePage from './profilePage/ProfilePage';
+import MembersPage from './MembersPage';
+// import SignUp from './signUp/SignUp'; 
+// import SettingsPage from './SettingsPage'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <MembersPage /> */}
+      <MembersPage />
       {/* <SignUp /> */}
-      <LogIn />
+      {/* <LogIn /> */}
+      {/* <ProfilePage /> */}
+      {/* <SettingsPage /> */}
     </div>
   );
 }
